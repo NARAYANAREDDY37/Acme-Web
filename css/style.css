@@ -30,6 +30,14 @@ ul {
   color: #ffffff;
 }
 
+.dark {
+  padding: 15px;
+  background: #35424a;
+  margin-top:10px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
 /* Header */
 header {
   background: #35424a;
@@ -113,4 +121,48 @@ header a:hover {
   padding:4px;
   width: 250px;
   height: 20px;
+}
+
+/* Boxes */
+#boxes {
+  margin-top:20px;
+}
+
+#boxes .box {
+  float:left;
+  text-align:center;
+  width:30%;
+  padding: 10px;
+}
+
+#boxes .box img {
+  width:90px;
+}
+
+/* Main col */
+article#main-col {
+  float: left;
+  width: 65%;
+}
+
+aside#sidebar {
+  float: right;
+  width:30%;
+  padding-top:10px;
+}
+
+/* Footer */
+
+footer {
+  background: #35424a;
+  padding: 20px;
+  margin-top: 20px;
+  text-align:center;
+  color: #ffffff;
+}
+
+footer p a {
+  color: #e8491d;
+  font-weight: bold;
+  text-decoration: none;
 }
